@@ -1,0 +1,39 @@
+div{
+	margin: 0px;
+	padding: 0px;
+	}
+.sketch{
+	border: none;
+	height: 15px;
+	width: 15px;
+	display: inline-block;
+	margin: 0px 2px;
+	padding: 0px;
+}
+button{
+	border: none;
+	background: #595959;
+	color: #d9d9d9;
+	font-size: 1.2em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	border-radius: 10px;
+	margin: 15px;
+	padding: 5px;
+	}
+body{
+	overflow: hidden;
+}
+.container{
+	border: solid black 1px;
+	margin: 10px;
+	}
+p{
+	text-align: center;
+	}
+h2{
+	text-align: center;
+	color: #595959;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 2em;
+	margin-bottom: -10px;
+	}
