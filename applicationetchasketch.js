@@ -17,6 +17,10 @@ $("#tablebutton").click(function(){
 	var retVal = prompt("What size boxes would you like?");
 	$('.sketch').css({"width": retVal, "height": retVal});
 		});
-/*$("#shadebutton".click(function(){
-  add 10% color on each mouseover*/
+$("#shadebutton".click(function(){
+  $(".grey").mouseenter(function(){
+  var opacity = $(this).data('opacity') || 0;
+  $(this).css("opacity", opacity = (parseInt(opacity) == 1 ? opacity : opacity + 0.1));
+  $(this).data('opacity', opacity);      
+});
 });
